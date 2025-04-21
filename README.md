@@ -7,18 +7,10 @@
 <!-- HEADER -->
 <br />
 <div align="center">
-    <img src='https://content.presspage.com/uploads/2110/gettyimages-1124683106-963049.jpg?10000' alt="Logo" width="120">
+    <img src='https://content.presspage.com/uploads/2110/gettyimages-1124683106-963049.jpg?10000' alt="Logo" width="100">
     <h2 align="center">Breathe</h2>
+    <p align="center">A simple breathwork app built with React Native</p>
 </div>
-
-
-
-<!-- ABOUT THE PROJECT -->
-## About
-
-A simple breathwork app built with React Native. 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
