@@ -7,7 +7,7 @@
 <!-- HEADER -->
 <br />
 <div align="center">
-    <img src="assets/lungs.png" alt="Logo" width="80" height="80">
+    <img src="/assets/lungs.png" alt="Logo" width="80" height="80">
     <h3 align="center">Breathe App</h3>
     <p align="center">A simple breathwork app built with React Native</p>
 </div>
@@ -16,7 +16,7 @@
 
 <!-- TABLE OF CONTENTS -->
 
-<p align="center">[About](#about) | [Tech Stack](#tech-stack) | [Get Started](#get-started) | [Take a Breath](#take-a-breath)</p>
+[About](#about) | [Tech Stack](#tech-stack) | [Get Started](#get-started) | [Take a Breath](#take-a-breath)g
 
 
 
