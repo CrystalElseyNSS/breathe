@@ -17,7 +17,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About
 
-A simple breathwork app built with React Native. Choose from three exercises, each with a different purpose, and breathe through the guided session.
+A simple breathwork app built with React Native. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,12 +70,10 @@ _Below is an example of how you can instruct your audience on installing and set
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
   
-<!-- TAKE A BREATH -->
-## Take a Breath
+<!-- USAGE -->
+## Usage
 
-How to use the app, coming soon...
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Choose from three exercises, each with a different purpose, and breathe through the guided session.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
