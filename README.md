@@ -7,7 +7,7 @@
 <!-- HEADER -->
 <br />
 <div align="center">
-    <img src="assets/lungs.jpg" alt="Logo" width="80" height="80">
+    <img src="assets/lungs.png" alt="Logo" width="80" height="80">
     <h3 align="center">Breathe App</h3>
     <p align="center">A simple breathwork app built with React Native</p>
 </div>
@@ -16,10 +16,7 @@
 
 <!-- TABLE OF CONTENTS -->
 
-[About](#about)  
-[Tech Stack](#tech-stack)  
-[Get Started](#get-started)  
-[Take a Breath](#take-a-breath)
+<p align="center">[About](#about) | [Tech Stack](#tech-stack) | [Get Started](#get-started) | [Take a Breath](#take-a-breath)</p>
 
 
 
@@ -42,7 +39,7 @@ Coming soon...
 
 
 <!-- GETTING STARTED -->
-## Get Started
+<!-- ## Get Started
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
@@ -65,7 +62,7 @@ _Below is an example of how you can instruct your audience on installing and set
    git remote -v # confirm the changes
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 ## Install a New React Native App without Packaging Errors
@@ -74,10 +71,11 @@ _Below is an example of how you can instruct your audience on installing and set
 
 - "Do you want to install CocoaPods?" ``` Y ```
 
-- Follow the steps [in this article](https://retyui.medium.com/how-to-correctly-configure-cocoapods-for-a-react-native-app-in-2023-apple-arm-m1-m2-chips-7ad2fafe41ea) to fix Ruby/Cocoapods build errors for ios.
-
-
-
+- Follow the steps [in this article](https://retyui.medium.com/how-to-correctly-configure-cocoapods-for-a-react-native-app-in-2023-apple-arm-m1-m2-chips-7ad2fafe41ea) to fix Ruby/Cocoapods build errors for ios.  
+  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+  
+  
 <!-- TAKE A BREATH -->
 ## Take a Breath
 
