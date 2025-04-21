@@ -1,97 +1,95 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<a id="readme-top"></a>
 
-# Getting Started
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
 
-## Step 1: Start Metro
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+<!-- HEADER -->
+<br />
+<div align="center">
+    <img src="assets/lungs.jpg" alt="Logo" width="80" height="80">
+    <h3 align="center">Breathe App</h3>
+    <p align="center">A simple breathwork app built with React Native</p>
+</div>
 
-To start the Metro dev server, run the following command from the root of your React Native project:
 
-```sh
-# Using npm
-npm start
 
-# OR using Yarn
-yarn start
-```
+<!-- TABLE OF CONTENTS -->
 
-## Step 2: Build and run your app
+[About](#about)  
+[Tech Stack](#tech-stack)  
+[Get Started](#get-started)  
+[Take a Breath](#take-a-breath)
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
 
-### Android
 
-```sh
-# Using npm
-npm run android
+<!-- ABOUT THE PROJECT -->
+## About
 
-# OR using Yarn
-yarn android
-```
+Coming soon...
 
-### iOS
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
 
-```sh
-bundle install
-```
+<!-- TECH STACK -->
+## Tech Stack
 
-Then, and every time you update your native dependencies, run:
+[![React Native][React.js]][ReactNative-url]
 
-```sh
-bundle exec pod install
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
 
-```sh
-# Using npm
-npm run ios
 
-# OR using Yarn
-yarn ios
-```
+<!-- GETTING STARTED -->
+## Get Started
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
+5. Change git remote url to avoid accidental pushes to base project
+   ```sh
+   git remote set-url origin github_username/repo_name
+   git remote -v # confirm the changes
+   ```
 
-## Step 3: Modify your app
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Now that you have successfully run the app, let's make changes!
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+## Install a New React Native App without Packaging Errors
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+- ``` npx @react-native-community/cli init <appname> ```
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+- "Do you want to install CocoaPods?" ``` Y ```
 
-## Congratulations! :tada:
+- Follow the steps [in this article](https://retyui.medium.com/how-to-correctly-configure-cocoapods-for-a-react-native-app-in-2023-apple-arm-m1-m2-chips-7ad2fafe41ea) to fix Ruby/Cocoapods build errors for ios.
 
-You've successfully run and modified your React Native App. :partying_face:
 
-### Now what?
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+<!-- TAKE A BREATH -->
+## Take a Breath
 
-# Troubleshooting
+How to use the app, coming soon...
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+_For more examples, please refer to the [Documentation](https://example.com)_
 
-# Learn More
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn more about React Native, take a look at the following resources:
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[ReactNative-url]: https://reactnative.dev/
