@@ -6,11 +6,7 @@
 
 <!-- HEADER -->
 <br />
-<div align="center">
-    <img src="./assets/lungs.jpg" alt="Logo" width="80" height="80">
-    <h3 align="center">Breathe App</h3>
-    <p align="center">A simple breathwork app built with React Native</p>
-</div>
+<div align="center">![Blue lungs](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cedars-sinai.org%2Fnewsroom%2Fstudy-protein-linked-to-cancer-growth-drives-deadly-lung-disease%2F&psig=AOvVaw2ZHd_dhPnpWDYf49_ohb1Z&ust=1745359343296000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIiYmrGQ6owDFQAAAAAdAAAAABAE)</div>
 
 
 
