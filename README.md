@@ -7,7 +7,7 @@
 <!-- HEADER -->
 <br />
 <div align="center">
-    <img src='https://content.presspage.com/uploads/2110/gettyimages-1124683106-963049.jpg?10000' alt="Logo" width="150">
+    <img src='https://content.presspage.com/uploads/2110/gettyimages-1124683106-963049.jpg?10000' alt="Logo" width="120">
     <h3 align="center">Breathe App</h3>
     <p align="center">A simple breathwork app built with React Native</p>
 </div>
@@ -17,7 +17,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About
 
-Coming soon...
+A simple breathwork app built with React Native. Choose from three exercises, each with a different purpose, and breathe through the guided session.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
