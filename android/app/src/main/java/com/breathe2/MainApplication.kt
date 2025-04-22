@@ -1,4 +1,4 @@
-package com.breathe2
+package com.breathe
 
 import android.app.Application
 import com.facebook.react.PackageList

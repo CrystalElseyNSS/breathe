@@ -48,15 +48,68 @@ _Below is an example of how you can instruct your audience on installing and set
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
-## Install a New React Native App without Packaging Errors
+## Install Ruby & CocoaPods Correctly
 
-- ``` npx @react-native-community/cli init <appname> ```
+Follow the steps [in this article](https://retyui.medium.com/how-to-correctly-configure-cocoapods-for-a-react-native-app-in-2023-apple-arm-m1-m2-chips-7ad2fafe41ea) to fix Ruby/Cocoapods build errors for ios.  
 
-- "Do you want to install CocoaPods?" ``` Y ```
-
-- Follow the steps [in this article](https://retyui.medium.com/how-to-correctly-configure-cocoapods-for-a-react-native-app-in-2023-apple-arm-m1-m2-chips-7ad2fafe41ea) to fix Ruby/Cocoapods build errors for ios.  
+- Create a Gemfile in root directory if one doesn't exist
+- Create a .ruby-version file in root directory and store correct version in it (currently using 3.2.2)
+- Install Ruby:   
+```brew install rbenv ruby-build```   
+```rbenv init```   
+```rbenv install 3.2.2```  
+```rbenv local``` (should see 3.2.2 or the version in your .ruby-version file print to terminal)  
+```bundler install```
+```bundler exec pod install --project-directory=ios```
+- If you get another CocoaPods file error, check your .ruby-version file and make sure it isn't empty
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Link Icons 
+
+Additional steps have to be taken in order to use icon imports in React Native. For this project, ```npm install``` will install react-native-vector-icons.  
+
+[Use this video as a guide.](https://www.youtube.com/watch?app=desktop&v=gkjYTapyEO8)
+
+Code to copy into Info.plist after closing false tag:
+```
+	<key>UIAppFonts</key>
+	<array>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>FontAwesome6_Brands.ttf</string>
+		<string>FontAwesome6_Regular.ttf</string>
+		<string>FontAwesome6_Solid.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>Zocial.ttf</string>
+		<string>Fontisto.ttf</string>
+	</array>
+```
+
+Code to copy into react-native.config.js:
+```
+module.exports = {
+    dependencies: {
+        'react-native-vector-icons': {
+            platforms: {
+                ios: null
+            }
+        }
+    }
+}
+```
   
   
 <!-- USAGE -->

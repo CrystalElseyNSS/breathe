@@ -1,14 +1,14 @@
 import React from 'react';
-import { FlatList, ImageBackground, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ImageBackground, StyleSheet, Text, View } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome'; 
 
-
-interface AppProps { }
 
 const imageStyles = { flex: 1, justifyContent: 'center' }
 const imageUrl = "https://img.freepik.com/premium-photo/mountain-landscape-with-fog-clouds-mountains-sunrise_495907-288.jpg"
 const image = { uri: imageUrl}
 
-const App: React.FC<AppProps> = () => {
+
+const App = () => {
     return (
         <View style={styles.view}>
             <ImageBackground source={image} resizeMode='cover' style={{
@@ -17,7 +17,8 @@ const App: React.FC<AppProps> = () => {
                 justifyContent: 'center',
                 alignSelf: 'auto'
             }}>
-                <Text style={styles.text}>Breathe</Text>
+                <Text style={styles.text}>breathe</Text>
+                <Icon name="arrow-right" size={30} color="#900" />
             </ImageBackground>
         </View>
     );
@@ -37,6 +38,8 @@ const styles = StyleSheet.create({
     },
     text: {
         fontSize: 32,
+        color: "#4e4d49",
+        bottom: 50
     },
     textRed: {
         fontSize: 36,

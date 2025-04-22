@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "breathe2.app"
-               BlueprintName = "breathe2"
-               ReferencedContainer = "container:breathe2.xcodeproj">
+               BuildableName = "breathe.app"
+               BlueprintName = "breathe"
+               ReferencedContainer = "container:breathe.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "breathe2Tests.xctest"
-               BlueprintName = "breathe2Tests"
-               ReferencedContainer = "container:breathe2.xcodeproj">
+               BuildableName = "breatheTests.xctest"
+               BlueprintName = "breatheTests"
+               ReferencedContainer = "container:breathe.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "breathe2.app"
-            BlueprintName = "breathe2"
-            ReferencedContainer = "container:breathe2.xcodeproj">
+            BuildableName = "breathe.app"
+            BlueprintName = "breathe"
+            ReferencedContainer = "container:breathe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "breathe2.app"
-            BlueprintName = "breathe2"
-            ReferencedContainer = "container:breathe2.xcodeproj">
+            BuildableName = "breathe.app"
+            BlueprintName = "breathe"
+            ReferencedContainer = "container:breathe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
